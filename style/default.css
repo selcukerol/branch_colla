@@ -1,0 +1,91 @@
+*div.img {
+    margin: 5px;
+    border: 0 solid #ccc;
+    float: left;
+    width: 400px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 0px;
+    text-align: center;
+}*/
+#pic{
+  background-image: url(deaf.jpg);
+  background-size: cover;
+  background-position: center center;
+  width:400px;
+  height:400px;
+  display:inline-block;
+  position:relative;
+}
+@media (max-width: 1200px) {  
+  .box.special {
+    display:none;
+}
+}
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+#menu{
+  /*width:900px;*/
+  margin:120px auto 0;
+  
+  font-size:30px;
+  font-style:normal;
+  display:inline-block;
+  
+}
+@media only screen and (max-width: 400px) {
+    /* phones */
+    #menu{
+  margin:20 auto 0;
+  font-size:20px;
+  font-style:normal;
+  display:inline-block;
+  
+}
+
+}
+
+/*@media(max-width:400px){
+.anvil {
+    display:none;}
+
+#menu li{
+display:block;
+}
+}*/
+
+#left_col {
+   float:left;
+   border:5px solid blue;
+   width:50%;
+ display:inline-block;
+ background-color: #ffffcc;
+
+
+}
+
+
+img {
+    float: left;
+    border: 1px;
+    margin: 5px 0px 15px 10px;
+}
+nav ul{
+  list-style: none;
+}
+
+nav li{
+  display:inline-block;
+}
